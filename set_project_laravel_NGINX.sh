@@ -21,5 +21,6 @@ sudo chgrp -R www-data storage bootstrap/cache && chmod -R ug+rwx storage bootst
 sudo cp example.conf /etc/nginx/sites-available/$1
 sudo ln -s /etc/nginx/sites-available/$1 /etc/nginx/sites-enabled/
 
-# ==== Reaload NGINX ================
+# ==== Reaload NGINX and fpm ================
 sudo systemctl reload nginx
+sudo service php7.4-fpm restart
