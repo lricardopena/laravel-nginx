@@ -3,7 +3,7 @@ This project is how to setup Laravel and NGINX on ubuntu and an empty Laravel pr
 
 
 ## First Clone the repository or download the files
-You can download on a folder when you want to create the project.
+You can download on a folder where you want to create the Laravel project.
 
 ## Modify the example.conf file
 You need to open this file and modify the line 5 (<YOUR PUBLIC FOLDER POINT TO INDEX>) and put where it will be you file "index" of you Laravel aplication, for example, if you are running the script on the folder "/var/www/html" and your application is going to be "appexample", then you need to replace by /var/www/html/appexample/public
